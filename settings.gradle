@@ -3,6 +3,7 @@ pluginManagement {
 		mavenCentral()
 		gradlePluginPortal()
 		maven {
+//			url 'https://maven.aliyun.com/nexus/content/group/public'
 			url 'https://repo.spring.io/release'
 		}
 		if (version.endsWith('-SNAPSHOT')) {
